@@ -154,7 +154,7 @@ main{
     font-weight: bold;
     font-size: 25px;
     color: #474747;
-    margin-bottom: 10px;
+    margin-bottom: 10p;
 }
 .inner-subtitle{
     font-weight: 600;
@@ -172,4 +172,45 @@ main{
 }
 hr{
     border-top: 1px solid #d1d1d1;
+}
+footer{
+    background-color: #FFF8F3;
+    margin-top: 110px;
+    padding: 130px 0;
+}
+.contact{
+    max-width: 1140px;
+    display: flex;
+    gap: 117px;
+    margin: 0 auto;
+}
+.connect-description{
+    font-size: 16px;
+    color:#474747;
+}
+.message input,textarea{
+    display: block;
+    margin-top: 20px;
+    padding: 18px 30px;
+    border: none;
+}
+.user-input{
+    width: 461px;
+    height: 64px;
+}
+
+.contact ul{
+    margin-top: 30px;
+    margin-left: 0;
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+.contact ul li{    
+    margin-right: 20px;
+    margin-left: 0;
+}
+.contact ul li img{
+    width: 24px;
+    height: 24px;
 }

@@ -14,7 +14,6 @@
     background-color: #FD6E0A;
     color: white;
     font-size: 20;
-    font-family: "Open Sans", sans-serif;
     font-weight: bold;
     border-radius: 5px;
     border: 0;
@@ -99,4 +98,78 @@ main{
     font-size: 20px;
     font-weight: bold;
     color:#474747;
+}
+.what-i-do{
+    margin-top: 130px;
+    text-align: center;
+    padding: 0 156px;
+}
+.skills{
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+.skill{
+    background-color: #FFFFFF;
+    padding: 30px;
+    box-shadow:0 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.skill image{
+    width: 44px;
+    height: 44px;
+}
+.resume{
+    margin-top: 160px;
+    text-align: center;
+}
+
+.resume-container{
+    display: flex;
+    gap: 70px;
+    margin-top: 113px;
+    margin-bottom: 50px;
+}
+.resume-content{
+    text-align: left;
+}
+.resume-subtitle{
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+}
+.inner-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.inner-subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    color:#757575;
+    margin-bottom: 20px;
+}
+.resume-info{
+    margin-bottom:30px;
+    margin-top: 30px;
+}
+.inner-description{
+    color: #757575;
+    font-size: 16px;
+}
+hr{
+    border-top: 1px solid #d1d1d1;
 }
